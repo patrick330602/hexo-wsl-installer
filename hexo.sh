@@ -39,7 +39,7 @@ if [ "${option}" == "y" ]; then
     sudo npm install -g hexo-cli
     echo ""
     echo "${cyan}******************************************"
-    echo "You have successfully installed Jekyll."
+    echo "You have successfully installed Hexo."
     echo "${bold}version${reset}${cyan}:\r`hexo -v`${reset}" 
 else
     echo "${red}operation cancelled.${reset}"
