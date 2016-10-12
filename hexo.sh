@@ -21,7 +21,6 @@ echo "2.n module"
 echo "3.Hexo"
 echo "------------------------------------------${reset}"
 read -p "Do you want to continue?[y/n]: " option
-
 if [ "${option}" == "y" ]; then
     echo"${green}Installing Node.js...${reset}"
     sudo apt-get install nodejs -y
