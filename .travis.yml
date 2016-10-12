@@ -1,6 +1,8 @@
 sudo: true
 dist: trusty
 language: sh
+before_script:
+    - echo "y" >> test
 script:
-    - bash hexo.sh
-    - y
+    - bash hexo.sh < test
+    
