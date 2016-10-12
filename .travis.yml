@@ -2,4 +2,4 @@ sudo: true
 dist: trusty
 language: sh
 script:
-    - sh hexo.sh
+    - sh hexo.sh test
