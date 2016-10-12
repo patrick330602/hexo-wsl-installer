@@ -20,7 +20,11 @@ echo "2.npm"
 echo "2.n module"
 echo "3.Hexo"
 echo "------------------------------------------${reset}"
-read -p "Do you want to continue?[y/n]: " option
+if["$1" != "test" ]; then
+    read -p "Do you want to continue?[y/n]: " option
+else
+    option="y"
+fi
 
 if [ "${option}" == "y" ]; then
     echo"${green}Installing Node.js...${reset}"
