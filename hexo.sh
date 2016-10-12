@@ -20,7 +20,7 @@ echo "2.npm"
 echo "2.n module"
 echo "3.Hexo"
 echo "------------------------------------------${reset}"
-if["$1" != "test" ]; then
+if ["$1" != "test" ]; then
     read -p "Do you want to continue?[y/n]: " option
 else
     option="y"
