@@ -11,4 +11,4 @@ Then following the instruction on the screen.
 
 ## Lincense
 
-The Project is under the license of [WTFPL](https://raw.githubusercontent.com/patrick330602/Hexo-Installer-For-WSL/master/LICENSE). Just do what the fuck you want.
+The Project is under the license of [The Unilisence](https://raw.githubusercontent.com/patrick330602/Hexo-Installer-For-WSL/master/LICENSE). 
