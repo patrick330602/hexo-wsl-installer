@@ -22,19 +22,19 @@ echo "3.Hexo"
 echo "------------------------------------------${reset}"
 read -p "Do you want to continue?[y/n]: " option
 if [ "${option}" == "y" ]; then
-    echo"${green}Installing Node.js...${reset}"
+    echo "${green}Installing Node.js...${reset}"
     sudo apt-get install nodejs -y
-    echo"${green}Installing Node Package Manager...${reset}"
+    echo "${green}Installing Node Package Manager...${reset}"
     sudo apt-get install npm -y
-    echo"${green}Create a symbolic link for node...${reset}"
+    echo "${green}Create a symbolic link for node...${reset}"
     sudo ln -s /usr/bin/nodejs /usr/bin/node
-    echo"${green}Updating Node Package Manager...${reset}"
+    echo "${green}Updating Node Package Manager...${reset}"
     sudo npm install npm -g
-    echo"${green}Installing Module n...${reset}"
+    echo "${green}Installing Module n...${reset}"
     sudo npm install n -g
-    echo"${green}Updating Node.js to Latest Stable...${reset}"
+    echo "${green}Updating Node.js to Latest Stable...${reset}"
     sudo n stable
-    echo"${green}Installing Hexo...${reset}"
+    echo "${green}Installing Hexo...${reset}"
     sudo npm install -g hexo-cli
     echo ""
     echo "${cyan}******************************************"
