@@ -39,7 +39,9 @@ if [ "${option}" == "y" ]; then
     echo ""
     echo "${cyan}******************************************"
     echo "You have successfully installed Hexo."
-    echo "${bold}version${reset}${cyan}:\r`hexo -v`${reset}" 
+    echo "${bold}version${reset}${cyan}:"
+    hexo -v
+    echo "${reset}"
 else
     echo "${red}operation cancelled.${reset}"
 fi
