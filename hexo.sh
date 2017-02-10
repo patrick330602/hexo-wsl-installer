@@ -1,4 +1,3 @@
-
 #!/bin/sh
 # Hexo Installer For Bash On Ubuntu On Windows 10
 # By Patrick Wu
